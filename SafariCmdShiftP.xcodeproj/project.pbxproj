@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0C539F29E349B5004C2A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C539E29E349B5004C2A60 /* AppDelegate.swift */; };
+		6E0C53A329E349B5004C2A60 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53A129E349B5004C2A60 /* Main.html */; };
+		6E0C53A529E349B5004C2A60 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53A429E349B5004C2A60 /* Icon.png */; };
+		6E0C53A729E349B5004C2A60 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53A629E349B5004C2A60 /* Style.css */; };
+		6E0C53A929E349B5004C2A60 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53A829E349B5004C2A60 /* Script.js */; };
+		6E0C53AB29E349B5004C2A60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C53AA29E349B5004C2A60 /* ViewController.swift */; };
+		6E0C53AE29E349B5004C2A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53AC29E349B5004C2A60 /* Main.storyboard */; };
+		6E0C53B029E349B6004C2A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53AF29E349B6004C2A60 /* Assets.xcassets */; };
+		6E0C53B829E349B6004C2A60 /* SafariCmdShiftP Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6E0C53B729E349B6004C2A60 /* SafariCmdShiftP Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E0C53BD29E349B6004C2A60 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C53BC29E349B6004C2A60 /* SafariWebExtensionHandler.swift */; };
+		6E0C53C029E349B6004C2A60 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53BF29E349B6004C2A60 /* _locales */; };
+		6E0C53C229E349B6004C2A60 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53C129E349B6004C2A60 /* images */; };
+		6E0C53C429E349B6004C2A60 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53C329E349B6004C2A60 /* manifest.json */; };
+		6E0C53C629E349B6004C2A60 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53C529E349B6004C2A60 /* background.js */; };
+		6E0C53C829E349B6004C2A60 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53C729E349B6004C2A60 /* content.js */; };
+		6E0C53CA29E349B6004C2A60 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53C929E349B6004C2A60 /* popup.html */; };
+		6E0C53CC29E349B6004C2A60 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53CB29E349B6004C2A60 /* popup.css */; };
+		6E0C53CE29E349B6004C2A60 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53CD29E349B6004C2A60 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E0C53B929E349B6004C2A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0C539329E349B5004C2A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E0C53B629E349B6004C2A60;
+			remoteInfo = "SafariCmdShiftP Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E0C53D629E349B6004C2A60 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6E0C53B829E349B6004C2A60 /* SafariCmdShiftP Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E0C539B29E349B5004C2A60 /* SafariCmdShiftP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariCmdShiftP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0C539E29E349B5004C2A60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E0C53A229E349B5004C2A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		6E0C53A429E349B5004C2A60 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6E0C53A629E349B5004C2A60 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		6E0C53A829E349B5004C2A60 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		6E0C53AA29E349B5004C2A60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E0C53AD29E349B5004C2A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E0C53AF29E349B6004C2A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E0C53B129E349B6004C2A60 /* SafariCmdShiftP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariCmdShiftP.entitlements; sourceTree = "<group>"; };
+		6E0C53B229E349B6004C2A60 /* SafariCmdShiftP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariCmdShiftP.entitlements; sourceTree = "<group>"; };
+		6E0C53B729E349B6004C2A60 /* SafariCmdShiftP Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SafariCmdShiftP Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0C53BC29E349B6004C2A60 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		6E0C53BF29E349B6004C2A60 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		6E0C53C129E349B6004C2A60 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		6E0C53C329E349B6004C2A60 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		6E0C53C529E349B6004C2A60 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		6E0C53C729E349B6004C2A60 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		6E0C53C929E349B6004C2A60 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		6E0C53CB29E349B6004C2A60 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		6E0C53CD29E349B6004C2A60 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		6E0C53CF29E349B6004C2A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0C53D029E349B6004C2A60 /* SafariCmdShiftP_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariCmdShiftP_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E0C539829E349B5004C2A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0C53B429E349B6004C2A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E0C539229E349B5004C2A60 = {
+			isa = PBXGroup;
+			children = (
+				6E0C539D29E349B5004C2A60 /* SafariCmdShiftP */,
+				6E0C53BB29E349B6004C2A60 /* SafariCmdShiftP Extension */,
+				6E0C539C29E349B5004C2A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E0C539C29E349B5004C2A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C539B29E349B5004C2A60 /* SafariCmdShiftP.app */,
+				6E0C53B729E349B6004C2A60 /* SafariCmdShiftP Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E0C539D29E349B5004C2A60 /* SafariCmdShiftP */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C539E29E349B5004C2A60 /* AppDelegate.swift */,
+				6E0C53AA29E349B5004C2A60 /* ViewController.swift */,
+				6E0C53AC29E349B5004C2A60 /* Main.storyboard */,
+				6E0C53AF29E349B6004C2A60 /* Assets.xcassets */,
+				6E0C53B129E349B6004C2A60 /* SafariCmdShiftP.entitlements */,
+				6E0C53B229E349B6004C2A60 /* SafariCmdShiftP.entitlements */,
+				6E0C53A029E349B5004C2A60 /* Resources */,
+			);
+			path = SafariCmdShiftP;
+			sourceTree = "<group>";
+		};
+		6E0C53A029E349B5004C2A60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C53A129E349B5004C2A60 /* Main.html */,
+				6E0C53A429E349B5004C2A60 /* Icon.png */,
+				6E0C53A629E349B5004C2A60 /* Style.css */,
+				6E0C53A829E349B5004C2A60 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E0C53BB29E349B6004C2A60 /* SafariCmdShiftP Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C53BC29E349B6004C2A60 /* SafariWebExtensionHandler.swift */,
+				6E0C53CF29E349B6004C2A60 /* Info.plist */,
+				6E0C53D029E349B6004C2A60 /* SafariCmdShiftP_Extension.entitlements */,
+				6E0C53BE29E349B6004C2A60 /* Resources */,
+			);
+			path = "SafariCmdShiftP Extension";
+			sourceTree = "<group>";
+		};
+		6E0C53BE29E349B6004C2A60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C53BF29E349B6004C2A60 /* _locales */,
+				6E0C53C129E349B6004C2A60 /* images */,
+				6E0C53C329E349B6004C2A60 /* manifest.json */,
+				6E0C53C529E349B6004C2A60 /* background.js */,
+				6E0C53C729E349B6004C2A60 /* content.js */,
+				6E0C53C929E349B6004C2A60 /* popup.html */,
+				6E0C53CB29E349B6004C2A60 /* popup.css */,
+				6E0C53CD29E349B6004C2A60 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E0C539A29E349B5004C2A60 /* SafariCmdShiftP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0C53D729E349B6004C2A60 /* Build configuration list for PBXNativeTarget "SafariCmdShiftP" */;
+			buildPhases = (
+				6E0C539729E349B5004C2A60 /* Sources */,
+				6E0C539829E349B5004C2A60 /* Frameworks */,
+				6E0C539929E349B5004C2A60 /* Resources */,
+				6E0C53D629E349B6004C2A60 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E0C53BA29E349B6004C2A60 /* PBXTargetDependency */,
+			);
+			name = SafariCmdShiftP;
+			productName = SafariCmdShiftP;
+			productReference = 6E0C539B29E349B5004C2A60 /* SafariCmdShiftP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E0C53B629E349B6004C2A60 /* SafariCmdShiftP Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0C53D329E349B6004C2A60 /* Build configuration list for PBXNativeTarget "SafariCmdShiftP Extension" */;
+			buildPhases = (
+				6E0C53B329E349B6004C2A60 /* Sources */,
+				6E0C53B429E349B6004C2A60 /* Frameworks */,
+				6E0C53B529E349B6004C2A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafariCmdShiftP Extension";
+			productName = "SafariCmdShiftP Extension";
+			productReference = 6E0C53B729E349B6004C2A60 /* SafariCmdShiftP Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E0C539329E349B5004C2A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6E0C539A29E349B5004C2A60 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6E0C53B629E349B6004C2A60 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 6E0C539629E349B5004C2A60 /* Build configuration list for PBXProject "SafariCmdShiftP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E0C539229E349B5004C2A60;
+			productRefGroup = 6E0C539C29E349B5004C2A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E0C539A29E349B5004C2A60 /* SafariCmdShiftP */,
+				6E0C53B629E349B6004C2A60 /* SafariCmdShiftP Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E0C539929E349B5004C2A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0C53A529E349B5004C2A60 /* Icon.png in Resources */,
+				6E0C53AE29E349B5004C2A60 /* Main.storyboard in Resources */,
+				6E0C53A929E349B5004C2A60 /* Script.js in Resources */,
+				6E0C53A329E349B5004C2A60 /* Main.html in Resources */,
+				6E0C53B029E349B6004C2A60 /* Assets.xcassets in Resources */,
+				6E0C53A729E349B5004C2A60 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0C53B529E349B6004C2A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0C53C629E349B6004C2A60 /* background.js in Resources */,
+				6E0C53CC29E349B6004C2A60 /* popup.css in Resources */,
+				6E0C53CA29E349B6004C2A60 /* popup.html in Resources */,
+				6E0C53C229E349B6004C2A60 /* images in Resources */,
+				6E0C53C429E349B6004C2A60 /* manifest.json in Resources */,
+				6E0C53C029E349B6004C2A60 /* _locales in Resources */,
+				6E0C53C829E349B6004C2A60 /* content.js in Resources */,
+				6E0C53CE29E349B6004C2A60 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E0C539729E349B5004C2A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0C53AB29E349B5004C2A60 /* ViewController.swift in Sources */,
+				6E0C539F29E349B5004C2A60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0C53B329E349B6004C2A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0C53BD29E349B6004C2A60 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E0C53BA29E349B6004C2A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E0C53B629E349B6004C2A60 /* SafariCmdShiftP Extension */;
+			targetProxy = 6E0C53B929E349B6004C2A60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E0C53A129E349B5004C2A60 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E0C53A229E349B5004C2A60 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		6E0C53AC29E349B5004C2A60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E0C53AD29E349B5004C2A60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E0C53D129E349B6004C2A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E0C53D229E349B6004C2A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6E0C53D429E349B6004C2A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SafariCmdShiftP Extension/SafariCmdShiftP_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69FXUBAVDM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SafariCmdShiftP Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SafariCmdShiftP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthieubulte.SafariCmdShiftP.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6E0C53D529E349B6004C2A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SafariCmdShiftP Extension/SafariCmdShiftP_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69FXUBAVDM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SafariCmdShiftP Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SafariCmdShiftP Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthieubulte.SafariCmdShiftP.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6E0C53D829E349B6004C2A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SafariCmdShiftP/SafariCmdShiftP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69FXUBAVDM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SafariCmdShiftP;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthieubulte.SafariCmdShiftP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6E0C53D929E349B6004C2A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SafariCmdShiftP/SafariCmdShiftP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69FXUBAVDM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SafariCmdShiftP;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthieubulte.SafariCmdShiftP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E0C539629E349B5004C2A60 /* Build configuration list for PBXProject "SafariCmdShiftP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0C53D129E349B6004C2A60 /* Debug */,
+				6E0C53D229E349B6004C2A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0C53D329E349B6004C2A60 /* Build configuration list for PBXNativeTarget "SafariCmdShiftP Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0C53D429E349B6004C2A60 /* Debug */,
+				6E0C53D529E349B6004C2A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0C53D729E349B6004C2A60 /* Build configuration list for PBXNativeTarget "SafariCmdShiftP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0C53D829E349B6004C2A60 /* Debug */,
+				6E0C53D929E349B6004C2A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E0C539329E349B5004C2A60 /* Project object */;
+}
