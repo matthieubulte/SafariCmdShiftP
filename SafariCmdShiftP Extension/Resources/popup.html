@@ -1,11 +1,107 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
-</head>
-<body>
-    <strong>Hello World!</strong>
-</body>
-</html>
+<style>
+  #commandInput {
+      box-sizing: border-box;
+      background: rgba(0,0,0,0);
+      padding-left: 13px;
+      padding-right: 13px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      font-family: 'Helvetica';
+      width: 100%;
+      font-size: 17px;
+      border: none;
+      border-bottom: 1px solid rgba(0,0,0,0.3);
+      box-shadow: none;
+  }
+  #commandBarResults {
+      display: flex;
+      flex-direction: column;
+      max-height: 300px;
+      overflow-y: auto;
+  }
+    
+  #commandBarBody {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(255,255,255,0.7);
+  }
+    
+  #commandBarDiv {
+      min-width: 700px;
+      max-width: 1000px;
+      box-sizing: border-box;
+      font-size: 17px;
+      background-color: white;
+      width: 60%;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      color: black;
+      margin-top: 52px;
+      font-family: 'Helvetica';
+      padding-bottom: 7.5px;
+  }
+    
+    
+  .tabDiv {
+      cursor: pointer;
+      margin-left: 7.5px;
+      margin-top: 7.5px;
+      margin-right: 7.5px;
+      border-radius: 7px;
+      padding: 7.5px;
+      display: flex;
+  }
+    
+  .csp-tab-action {
+      visibility: hidden;
+  }
+    
+  .csp-tab-selected > .csp-tab-action {
+      visibility: visible;
+  }
+    
+    .tabDiv:hover > .csp-tab-action {
+        visibility: visible;
+    }
+    
+  .csp-tab-title {
+      width: 80%;
+      overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+  }
+  .csp-tab-url {
+      font-size: 15px;
+      color: gray;
+  }
+    
+   .tabDiv:hover {
+        background-color: rgba(0,0,0,0.1);
+   }
+    
+  .csp-tab-selected {
+      background-color: rgba(0,0,0,0.8) !important;
+      color: white;
+  }
+  
+  .csp-tab-selected:hover {
+      background-color: rgba(0,0,0,0.8) !important;
+      color: white;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+
+
+</style>
+<div id="commandBarDiv">
+    <input id="commandInput" type="text" placeholder="Search or Enter URL..."/>
+    <div id="commandBarResults"></div>
+</div>

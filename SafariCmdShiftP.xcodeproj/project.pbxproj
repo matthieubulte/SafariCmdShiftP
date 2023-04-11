@@ -23,8 +23,8 @@
 		6E0C53C629E349B6004C2A60 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53C529E349B6004C2A60 /* background.js */; };
 		6E0C53C829E349B6004C2A60 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53C729E349B6004C2A60 /* content.js */; };
 		6E0C53CA29E349B6004C2A60 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53C929E349B6004C2A60 /* popup.html */; };
-		6E0C53CC29E349B6004C2A60 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53CB29E349B6004C2A60 /* popup.css */; };
-		6E0C53CE29E349B6004C2A60 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E0C53CD29E349B6004C2A60 /* popup.js */; };
+		6EA0891A29E5604E00249006 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0891929E5604E00249006 /* README.md */; };
+		6EA0891C29E5617E00249006 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA0891B29E5617E00249006 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,10 +71,10 @@
 		6E0C53C529E349B6004C2A60 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		6E0C53C729E349B6004C2A60 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		6E0C53C929E349B6004C2A60 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		6E0C53CB29E349B6004C2A60 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		6E0C53CD29E349B6004C2A60 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		6E0C53CF29E349B6004C2A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E0C53D029E349B6004C2A60 /* SafariCmdShiftP_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariCmdShiftP_Extension.entitlements; sourceTree = "<group>"; };
+		6EA0891929E5604E00249006 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6EA0891B29E5617E00249006 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +98,8 @@
 		6E0C539229E349B5004C2A60 = {
 			isa = PBXGroup;
 			children = (
+				6EA0891B29E5617E00249006 /* screenshot.png */,
+				6EA0891929E5604E00249006 /* README.md */,
 				6E0C539D29E349B5004C2A60 /* SafariCmdShiftP */,
 				6E0C53BB29E349B6004C2A60 /* SafariCmdShiftP Extension */,
 				6E0C539C29E349B5004C2A60 /* Products */,
@@ -158,8 +160,6 @@
 				6E0C53C529E349B6004C2A60 /* background.js */,
 				6E0C53C729E349B6004C2A60 /* content.js */,
 				6E0C53C929E349B6004C2A60 /* popup.html */,
-				6E0C53CB29E349B6004C2A60 /* popup.css */,
-				6E0C53CD29E349B6004C2A60 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -248,6 +248,7 @@
 				6E0C53A529E349B5004C2A60 /* Icon.png in Resources */,
 				6E0C53AE29E349B5004C2A60 /* Main.storyboard in Resources */,
 				6E0C53A929E349B5004C2A60 /* Script.js in Resources */,
+				6EA0891A29E5604E00249006 /* README.md in Resources */,
 				6E0C53A329E349B5004C2A60 /* Main.html in Resources */,
 				6E0C53B029E349B6004C2A60 /* Assets.xcassets in Resources */,
 				6E0C53A729E349B5004C2A60 /* Style.css in Resources */,
@@ -259,13 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0C53C629E349B6004C2A60 /* background.js in Resources */,
-				6E0C53CC29E349B6004C2A60 /* popup.css in Resources */,
 				6E0C53CA29E349B6004C2A60 /* popup.html in Resources */,
 				6E0C53C229E349B6004C2A60 /* images in Resources */,
 				6E0C53C429E349B6004C2A60 /* manifest.json in Resources */,
 				6E0C53C029E349B6004C2A60 /* _locales in Resources */,
+				6EA0891C29E5617E00249006 /* screenshot.png in Resources */,
 				6E0C53C829E349B6004C2A60 /* content.js in Resources */,
-				6E0C53CE29E349B6004C2A60 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
