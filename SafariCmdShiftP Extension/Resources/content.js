@@ -7,6 +7,8 @@ var HTML = '';
 document.addEventListener("keydown", (event) => {
   if (event.metaKey && event.shiftKey && event.code === "KeyP") {
     CommandBar();
+    event.preventDefault();
+    event.stopPropagation();
   }
 });
 
@@ -204,7 +206,10 @@ function CommandBar() {
             document.getElementById(`csp-tab-${selectedRow}`).classList.remove('csp-tab-selected');
         }
         
-        document.getElementById(`csp-tab-${index}`).classList.add('csp-tab-selected');
+        const row = document.getElementById(`csp-tab-${index}`);
+        row.classList.add('csp-tab-selected');
+        row.scrollIntoView({ block: 'nearest' });
+
         selectedRow = index;
     }
     
