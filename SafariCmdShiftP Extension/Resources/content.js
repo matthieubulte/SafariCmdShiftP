@@ -16,6 +16,8 @@ function matches(str, search) {
 
 
 function CommandBar() {
+    if (document.getElementById("commandBarBody")) return;
+    
     // ####################################################################################
     // STATE
     // ####################################################################################
